@@ -1,0 +1,178 @@
+
+
+/*************************
+*****   Base Styles   ****
+**************************/
+
+body {
+    font-family: 'Josefin Slab', serif;
+    color:#121212;
+    letter-spacing: 1px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Maven Pro', sans-serif;
+    text-transform: uppercase;
+    margin:0;
+}
+
+
+a:focus {
+    outline:none;
+    outline-offset: 0;
+}
+
+a {
+    -webkit-transition:all 500ms ease-out;
+    -moz-transition:all 500ms ease-out;
+    -o-transition:all 500ms ease-out;
+    transition:all 500ms ease-out;
+    text-decoration:none;
+}
+
+a:hover
+{
+    text-underline: none;
+}
+
+ul
+{
+    padding:0;
+}
+
+ul li
+{
+    list-style:none;
+}
+
+/*************************
+***** Header Styles   ****
+**************************/
+
+header
+{
+    position: relative;
+}
+
+.overlay-container
+{
+    position:relative;
+    overflow:hidden;
+    max-height:550px;
+}
+
+.overlay-container .overlay
+{
+    background: linear-gradient(to right, rgba(13,18,49,1) 0%,
+    rgba(33,37,64,0.9) 47%,
+    rgba(33,37,64,0.8) 71%,
+    rgba(13,18,49,0.9) 100%);
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    z-index: 9;
+}
+
+.caption-text
+{
+    position:absolute;
+    width:80%;
+    top:40%;
+    left:0;
+    z-index:99;
+    padding-left:25%;
+}
+
+.caption-text > h2
+{
+    text-transform: capitalize;
+    color:#e45a36;
+}
+
+.caption-text > p
+{
+    color:white;
+    margin-top:0.5rem;
+    font-style: italic;
+}
+
+.floating-model
+{
+    position:absolute;
+    right:0;
+    bottom:10%;
+    z-index:99;
+}
+
+.float-jewel
+{
+    position:absolute;
+    bottom:28%;
+    right:12%;
+    z-index:100;
+
+}
+
+.float-model-last
+{
+    position:absolute;
+    bottom:-3%;
+    right:17%;
+    z-index:101;
+}
+
+
+/*************************
+*** Logo List Styles   ***
+**************************/
+
+.host-logos
+{
+    max-width:80px;
+    max-height:50px;
+    fill:#ccc;
+}
+
+.host-logos-x2
+{
+    max-width:150px;
+    max-height:80px;
+}
+
+
+.host-logos-x3
+{
+    max-width:250px;
+    max-height:140px;
+}
+
+.host-list
+{
+    position: relative;
+}
+
+.host-list h3
+{
+    text-transform: capitalize;
+    margin:1.7rem 0 0;
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+
+.host-list ul
+{
+    padding-top:1.5rem;
+}
+
+.host-list li
+{
+    margin:3rem 0;
+    padding:0;
+}
+
+

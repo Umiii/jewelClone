@@ -1,0 +1,30 @@
+
+
+@media only screen and  (min-width: 768px) {
+        .overlay-container > .main-bg
+        {
+            min-height:450px;
+        }
+
+        .host-list li
+        {
+            display:inline;
+            margin-right:2rem;
+            padding-left:1rem;
+        }
+
+        .host-list li:last-of-type
+        {
+            margin-right:0;
+        }
+}
+
+@media only screen and  (min-width: 1024px) {
+
+    .host-list li
+    {
+        display:inline;
+        margin-right:4rem;
+        padding-left:1rem;
+    }
+}

@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family:'Maven Pro', sans-serif;
     text-transform: uppercase;
     margin:0;
+    color:#8e8e8e;
 }
 
 
@@ -78,17 +79,22 @@ header
 .caption-text
 {
     position:absolute;
-    width:80%;
-    top:40%;
+    width:100%;
+    top:10%;
     left:0;
     z-index:99;
-    padding-left:25%;
+    padding:0 0.5rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
 }
 
 .caption-text > h2
 {
     text-transform: capitalize;
     color:#e45a36;
+    font-size:1rem;
 }
 
 .caption-text > p
@@ -96,6 +102,7 @@ header
     color:white;
     margin-top:0.5rem;
     font-style: italic;
+    font-size:0.78rem;
 }
 
 .floating-model
@@ -103,24 +110,26 @@ header
     position:absolute;
     right:0;
     bottom:10%;
-    z-index:99;
+    z-index:100;
+    display:none;
 }
 
 .float-jewel
 {
     position:absolute;
-    bottom:28%;
-    right:12%;
-    z-index:100;
+    top:50%;
+    left:2%;
+    z-index:99;
 
 }
 
 .float-model-last
 {
     position:absolute;
-    bottom:-3%;
-    right:17%;
+    top:75%;
+    right:0;
     z-index:101;
+
 }
 
 
@@ -128,51 +137,45 @@ header
 *** Logo List Styles   ***
 **************************/
 
+.logo-list
+{
+    margin-top:17rem;
+}
+
+
 .host-logos
 {
-    max-width:80px;
-    max-height:50px;
-    fill:#ccc;
+    max-width:100px;
+    max-height:90px;
+    padding-top:30px;
 }
 
 .host-logos-x2
 {
-    max-width:150px;
-    max-height:80px;
+    max-width:90px;
+    max-height:130px;
 }
 
-
-.host-logos-x3
-{
-    max-width:250px;
-    max-height:140px;
-}
-
-.host-list
-{
-    position: relative;
-}
-
-.host-list h3
-{
-    text-transform: capitalize;
-    margin:1.7rem 0 0;
-    position:absolute;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width:100%;
-}
-
-.host-list ul
-{
-    padding-top:1.5rem;
-}
 
 .host-list li
 {
-    margin:3rem 0;
+    margin-right:2rem;
     padding:0;
+    display:inline;
 }
 
+.host-list-short
+{
+    padding-left:1rem;
+}
+
+.host-long-list li
+{
+    margin-right:0.5rem;
+}
+
+.host-list li:last-of-type
+{
+    margin:0;
+}
 

@@ -1,30 +1,161 @@
+@media only screen and  (min-width: 480px) {
+    .host-list-short
+    {
+        padding-left:3rem;
+    }
+
+    .host-list li
+    {
+        margin-right:4rem;
+        display:inline;
+    }
+
+    .host-long-list li
+    {
+        padding-left:1rem;
+    }
+}
+
 
 
 @media only screen and  (min-width: 768px) {
+
+        .caption-text
+        {
+            top:40%;
+            width:80%;
+            justify-content:flex-start;
+            align-items: flex-start;
+        }
+
+        .caption-text > h2
+        {
+            font-size:1.5rem;
+        }
+
+        .float-jewel
+        {
+            top:20%;
+            right:25%;
+            left:initial;
+        }
+
+        .float-model-last
+        {
+            right:7%;
+            bottom:-30%;
+        }
+
+        .logo-list
+        {
+            margin-top:10rem;
+        }
+
+        .host-logos
+        {
+            max-width:100px;
+        }
+        .host-logos-x2
+        {
+            max-width:110px;
+        }
+
+        .host-list-short
+        {
+            padding-left:0;
+        }
+
+        .host-list li
+        {
+            margin-right:1.2rem;
+        }
+
+        .host-long-list li
+        {
+            margin-right:1rem;
+        }
+
+
+}
+
+@media only screen and  (min-width: 1024px) {
+
+        .caption-text
+        {
+            width:80%;
+            padding-left:20%;
+        }
+
+        .logo-list
+        {
+            margin-top:5rem;
+        }
+
+        .floating-model
+        {
+            display: block;
+        }
+
+        .float-jewel
+        {
+            top:7%;
+            right:14%;
+            left:initial;
+        }
+
+        .float-model-last
+        {
+            right:37%;
+            left:initial;
+            display:block;
+            bottom:-10%;
+            top:unset;
+        }
+
+        .host-list-short
+        {
+            padding-left:4.5rem;
+        }
+
+        .host-list li
+        {
+
+            margin-right:4rem;
+        }
+
+
+}
+
+@media only screen and  (min-width: 1200px) {
         .overlay-container > .main-bg
         {
             min-height:450px;
         }
 
+        .float-jewel {
+            top:7%;
+            right: 11%;
+        }
+
+        .float-model-last
+        {
+            right:24%;
+            bottom:-5%;
+        }
+
+        .host-list-short
+        {
+            padding-left:3rem;
+        }
+
         .host-list li
         {
-            display:inline;
-            margin-right:2rem;
-            padding-left:1rem;
+
+            margin-right:5.5rem;
         }
 
-        .host-list li:last-of-type
+        .host-long-list li
         {
-            margin-right:0;
+            margin-right:4rem;
         }
-}
-
-@media only screen and  (min-width: 1024px) {
-
-    .host-list li
-    {
-        display:inline;
-        margin-right:4rem;
-        padding-left:1rem;
-    }
 }
